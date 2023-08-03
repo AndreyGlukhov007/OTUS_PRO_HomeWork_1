@@ -12,7 +12,7 @@ import org.openqa.selenium.support.PageFactory;
 
 
 // в этом классе мы подключаем различные инструменты которые пригодятся нам при автоматизации
-public abstract class AbsPageObject<T> {
+public abstract class AbsPageObject {
 
     protected WebDriver driver;
     protected Actions actions;
